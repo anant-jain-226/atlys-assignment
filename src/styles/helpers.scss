@@ -1,0 +1,130 @@
+@import '../styles/colors.scss';
+
+.main-container{
+    background-color: #191920;
+    min-height: 100vh;
+    color: $grey-light;
+    display: flex;
+    justify-content: center;
+    
+    >*{
+        width: 60%;
+        min-width: 500px;
+    }
+}
+
+.white-text{
+    color: $white;
+}
+
+.grey-text{
+    color: $grey;
+}
+
+.grey-light-text{
+    color: $grey-light;
+}
+.flex{
+    display: flex;
+}
+
+.br50{
+    border-radius: 50%;
+}
+
+.cta-btn{
+    background-color: $blue !important;
+    color: $white !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+}
+
+.post{
+    background-color: $grey-dark;
+    padding:20px;
+    border: 2px solid $border-color;
+    border-radius: 8px;
+    margin-top: 15px
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    padding: 10px;
+    border: 1.5px solid $border-color;
+}
+
+.login-cont{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    align-items: center;
+    cursor: pointer;
+    .login{
+        min-width: 500px;
+        width: 35%;
+
+        .close-modal{
+            display: flex;
+            justify-content: end;
+            margin-top: -10px;
+
+            img{
+                padding: 5px;
+                background-color: $close-background;
+                border-radius: 50%;
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        >p{
+            margin-top: 10px;
+        }
+
+        >div{
+            margin-top: 10px;
+        }
+
+        img{
+            width: 18px;
+            height: 15px;
+            margin-top: 3px;
+        }
+    }
+}
+
+
+.login-btn{
+    width: 100%;
+    margin: 10px 0px;
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+}
+
+.vertical-spacing{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.auth-page{
+    margin-top: 10%;
+}
+
+.margin-10{
+    margin-top: 10%;
+}
